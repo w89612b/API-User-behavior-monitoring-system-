@@ -1,0 +1,35 @@
+{
+  "name": "Website_User_Behavior_Monitoring_System Server",
+  "version": "1.0.0",
+  "description": "Website user behavior monitoring system - service control side",
+  "main": "/lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "dev": "node ./src/app.js"
+  },
+  "author": "w89612b <13996437157@139.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w89612b/API-User-behavior-monitoring-system-.git"
+  },
+  "keywords": [
+    "User",
+    "monitoring",
+    "behavior",
+    "service",
+    "User behavior",
+    "monitoring service",
+    "User Behavior Analysis",
+    "User monitoring",
+    "User behavior monitoring",
+    "User behavior monitoring service"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "md5": "^2.2.1",
+    "mysql": "^2.15.0",
+    "path-to-regexp": "^2.1.0",
+    "ua-parser-js": "^0.7.17"
+  }
+}
